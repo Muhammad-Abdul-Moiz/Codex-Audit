@@ -1,3 +1,5 @@
+## 1. Title + one-line tagline
+
 # Codex Audit
 
 Know what an AI coding agent changed before you merge it: Codex Audit gives engineering leads a fast risk review of a diff or agent session.
@@ -97,11 +99,11 @@ For a production build check, stop the dev server before running `npm run build`
 
 Fill in the bracketed placeholders with specifics from your actual Codex session before submitting.
 
-- **Next.js and API scaffolding** - Codex created the App Router structure, Tailwind setup, typed API route, and shared report schema in one pass - this removed repetitive project wiring and gave the judge-readable architecture a clean starting point.
-- **Product UI and interaction design** - Codex shaped the input flow, loading states, risk dashboard, timeline, checklist, and Markdown export as one coherent dark-mode experience - this shortened the gap between functional code and a demo-ready product surface.
-- **GPT-5.6 integration** - Codex wrote the senior-reviewer prompt, strict structured-output contract, Zod validation, and server-side error handling - this made the model's role explicit and kept malformed output out of the UI.
-- **Stress-test fix** - Codex tested empty, 2,000-line, non-code, and over-limit inputs, then hardened malformed-response parsing and friendly network errors - this prevented raw parser messages and blank screens during judging.
-- **Install/startup recovery** - Codex traced npm's `Link.matches` crash to stale pnpm-generated `node_modules`, regenerated an npm lockfile, and resolved a stale port-3000 process - this turned a setup failure into a repeatable `npm install` -> `npm run dev` path.
+- **[PLACEHOLDER: Next.js and API scaffolding]** - Codex created the App Router structure, Tailwind setup, typed API route, and shared report schema in one pass - this removed repetitive project wiring and gave the judge-readable architecture a clean starting point.
+- **[PLACEHOLDER: product UI and interaction design]** - Codex shaped the input flow, loading states, risk dashboard, timeline, checklist, and Markdown export as one coherent dark-mode experience - this shortened the gap between functional code and a demo-ready product surface.
+- **[PLACEHOLDER: GPT-5.6 integration]** - Codex wrote the senior-reviewer prompt, strict structured-output contract, Zod validation, and server-side error handling - this made the model's role explicit and kept malformed output out of the UI.
+- **[PLACEHOLDER: stress-test fix]** - Codex tested empty, 2,000-line, non-code, and over-limit inputs, then hardened malformed-response parsing and friendly network errors - this prevented raw parser messages and blank screens during judging.
+- **[PLACEHOLDER: install/startup recovery]** - Codex traced npm's `Link.matches` crash to stale pnpm-generated `node_modules`, regenerated an npm lockfile, and resolved a stale port-3000 process - this turned a setup failure into a repeatable `npm install` -> `npm run dev` path.
 
 ## 10. Architecture Notes
 
